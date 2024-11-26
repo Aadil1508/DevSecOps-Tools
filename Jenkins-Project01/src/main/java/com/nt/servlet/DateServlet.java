@@ -18,7 +18,7 @@ public class DateServlet extends HttpServlet{
 		//Set Response Content type
 		res.setContentType("text/html");
 		//Get PrintWriter
-		PrintWriter pw = res.getWriter()
+		PrintWriter pw = res.getWriter();
 		//Business Logic
 		Date d = new Date();
 		pw.println("<h1>Date and Time is: "+d+"</h1>");
